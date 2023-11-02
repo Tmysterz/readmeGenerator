@@ -32,16 +32,17 @@ const questions = inquirer.prompt([
         message: "Please write about the use of your project",
         name: "usage",
     },
-    {
-        type: "input",
-        message: "What kind of license should your project have?",
-        name: "license",
-    },
     // {
-    //     question: "What kind of license should your project have?",
-    //     choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+    //     type: "input",
+    //     message: "What kind of license should your project have?",
     //     name: "license",
     // },
+    {
+        type: "list",
+        message: "What kind of license should your project have?",
+        choices: ["MIT", "APACHE2.0", "GPL3.0", "BSD3", "None"],
+        name: "license",
+    },
     {
         type: "input",
         message: "What command should be run to install dependencies?",
@@ -86,6 +87,4 @@ init();
 
 // TO DO 
 
-// make the licnese question multiple choice with 4 answers
-// a badge for that license is added near the top of the README
 // how to add license link 
