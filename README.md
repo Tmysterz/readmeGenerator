@@ -1,4 +1,4 @@
-  # Random Generator README.md
+  # readMeGenerator README.md
   ![Github License](https://img.shields.io/badge/MIT-blue)
 
   ## Description
