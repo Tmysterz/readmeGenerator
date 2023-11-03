@@ -35,7 +35,7 @@ const questions = inquirer.prompt([
     {
         type: "list",
         message: "What kind of license should your project have?",
-        choices: ["MIT", "APACHE2.0", "GPL3.0", "BSD3", "None"],
+        choices: ["MIT", "APACHE2.0", "GPL", "BSD", "None"],
         name: "license",
     },
     {
@@ -62,7 +62,6 @@ const questions = inquirer.prompt([
 
 })
 
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     
@@ -72,7 +71,3 @@ function writeToFile(fileName, data) {
         err ? console.error(err) : console.log('Successfully created README.md!')
     })
 }
-
-// TO DO 
-
-// how to add license link 

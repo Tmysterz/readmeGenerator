@@ -1,6 +1,6 @@
 
   # t README.md
-  ![Github License](https://img.shields.io/badge/None-blue)
+  ![Github License](https://img.shields.io/badge/BSD-blue)
 
   ## Description
 
@@ -32,8 +32,8 @@
 
   ## License
 
-  This project is licensed under the None license undefined.
-  The license link for this project is input license link
+  This project is licensed under the BSD license ![Github License](https://img.shields.io/badge/BSD-blue).
+  The license link for this project is https://opensource.org/license/BSD/
 
   ## Contributing 
 
