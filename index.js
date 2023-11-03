@@ -32,11 +32,6 @@ const questions = inquirer.prompt([
         message: "Please write about the use of your project",
         name: "usage",
     },
-    // {
-    //     type: "input",
-    //     message: "What kind of license should your project have?",
-    //     name: "license",
-    // },
     {
         type: "list",
         message: "What kind of license should your project have?",
@@ -77,13 +72,6 @@ function writeToFile(fileName, data) {
         err ? console.error(err) : console.log('Successfully created README.md!')
     })
 }
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
-
 
 // TO DO 
 
